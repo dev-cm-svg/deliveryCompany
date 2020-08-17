@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-o53vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085q/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Delivery Master, Help to Move Furnitures</title>
+  </head>
+  <body>
+    <header class="showcase">
+      <div class="showcase-top">
+        <div class="title">
+          <h2>Delivery</h2>
+          <h2>Master</h2>
+        </div>
+        <a href="#" class="btn btn-rounded">Sign In</a>
+      </div>
+      <div class="showcase-content">
+        <h1>Ready to Move?</h1>
+        <p>We can Help!</p>
+        <a href="#" class="btn btn-xl"
+          >Try Our Services <i class="fas fa-chevron-right btn-icon"></i
+        ></a>
+      </div>
+    </header>
+    <section class="tabs">
+      <div class="container">
+        <div id="tab-1" class="tab-item tab-border">
+          <i class="fas fa-door-open fa-3x"></i>
+          <p class="hide-sm">Our address</p>
+        </div>
+        <div id="tab-2" class="tab-item">
+          <i class="fas fa-tablet-alt fa-3x"></i>
+          <p class="hide-sm">Order online</p>
+        </div>
+        <div id="tab-3" class="tab-item">
+          <i class="fas fa-tags fa-3x"></i>
+          <p class="hide-sm">Our Price</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-content">
+      <div class="container">
+        <!-- Tab content 1 -->
+        <div id="tab-1-content" class="tab-content-item show">
+          <div class="tab-1-content-inner">
+            <div>
+              <p class="text-lg text-light">
+                Call us to make an appointment
+              </p>
+              <p class="btn btn-lg">513-233-5234</p>
+            </div>
+            <img
+              src="https://c1.sfdcstatic.com/content/dam/blogs/legacy/2015/04/6a00e54ee3905b883301b8d0ea5a4a970.jpg"
+              alt="phonecall"
+            />
+          </div>
+        </div>
+        <!--Tab content 2  -->
+        <div id="tab-2-content" class="tab-content-item">
+          <div class="tab-1-content-inner">
+            <p class="text-xl text-center">Make an order online</p>
+            <form action="#" method="POST">
+              <div class="form-control">
+                <label for="userName">UserName</label>
+                <input type="text" required />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" required />
+              </div>
+              <div class="form-control">
+                <label for="weight">Weight</label>
+                <select id="weight" name="weight">
+                  <option value="0~10kg">0~10kg</option>
+                  <option value="11~20kg">11~20kg</option>
+                  <option value="21~50kg">21~50kg</option>
+                  <option value="51~100kg">51~100kg</option>
+                  <option value="101~200kg">101~200kg</option>
+                </select>
+              </div>
+              <div class="form-control">
+                <label for="items">Items</label>
+                <input type="number" required />
+              </div>
+              <div class="form-control">
+                <label for="from">From</label>
+                <input type="address" required />
+              </div>
+              <div class="form-control">
+                <label for="from">To</label>
+                <input type="address" required />
+              </div>
+              <div class="form-control">
+                <label for="time">Time to move</label>
+                <input type="datetime-local" required />
+              </div>
+              <div>
+                <input type="submit" class="btn btn-lg" value="Pay Now" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Tab content 3 -->
+        <div id="tab-3-content" class="tab-content-item">
+          <div class="text-center">
+            <p class="text-lg">Check out our price for your delivery</p>
+            <a href="#" class="btn btn-lg">Try Our Services</a>
+          </div>
+
+          <table class="table">
+            <thead>
+              <th></th>
+              <th>0~20km</th>
+              <th>21~50km</th>
+              <th>51~100km</th>
+              <th>101~200km</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price per item of weight 0~10kg</td>
+                <td>$8.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+              </tr>
+              <tr>
+                <td>Price per item of weight 11~20kg</td>
+                <td>$8.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+              </tr>
+              <tr>
+                <td>Price per item of weight 21~50kg</td>
+                <td>$8.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+              </tr>
+              <tr>
+                <td>Price per item of weight 51~100kg</td>
+                <td>$8.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+              </tr>
+              <tr>
+                <td>Price per item of weight 101~200kg</td>
+                <td>$8.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Questions? Call 1-866-579-7172</p>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Ways To Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Buy Gift Cards</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
